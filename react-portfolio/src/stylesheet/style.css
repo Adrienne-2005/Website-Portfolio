@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(20, 20, 20);
+}
+
+body {
+    color: whitesmoke;
+    background-color: #111111;
+}
+
+
+
+.webname {
+    background: linear-gradient(to bottom, #222222, #171717);
+    border-radius: clamp(0.3125rem, -0.0446rem + 0.558vw, 0.625rem);
+    backdrop-filter: blur(3px);
+    border: 1px solid;
+    border-color: rgba(245, 245, 245, 0.442);
+    box-shadow: 0 0 0px -30px rgba(255, 255, 255, 0);
+    padding: 0.5% 1.5%;
+}
+
+.navigationbar {
+    background: linear-gradient(to bottom, #222222, #171717);
+    border-radius: clamp(0.3125rem, -0.0446rem + 0.558vw, 0.625rem);
+    backdrop-filter: blur(3px);
+    border: 1px solid;
+    border-color: rgba(245, 245, 245, 0.442);
+    box-shadow: 0 0 0px -30px rgba(255, 255, 255, 0);
+    padding: 0.5% 1.5%;
+    color: #d2d1d1;
+}
+
+.landingname {
+    color: #B7B7B7
+}
+
+.landingstatus {
+    color: whitesmoke
+}
+
+.landingbio {
+    color: #A2A1A1
+}
+
+.cvbutton {
+    margin: 3% 0 0 1%
+}
+
+.button {
+    background: linear-gradient(to bottom, #2E2D2D, #1d1d1d);
+    border-radius: clamp(0.3125rem, -0.0446rem + 0.558vw, 0.625rem);
+    backdrop-filter: blur(3px);
+    border: 1px solid;
+    border-color: rgba(245, 245, 245, 0.442);
+    box-shadow: 0 0 0px -30px rgba(255, 255, 255, 0);
+    padding: 0.75% 2%;
+}
+
+.button img {
+    width: clamp(0.9375rem, -0.1339rem + 1.6741vw, 1.875rem);
+    height: auto;
+    filter: invert(100%)
+}
